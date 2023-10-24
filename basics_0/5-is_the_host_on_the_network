@@ -3,7 +3,6 @@
 
 # Check if the number of command-line arguments is not equal to 1 (-ne = not equal to)
 if [ $# -ne 1 ]; then
-
 # If the number of arguments is not equal to 1, display a usage message.
   echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
   exit 1
